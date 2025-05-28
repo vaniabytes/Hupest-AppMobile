@@ -10,7 +10,7 @@ class LoginView extends GetView<LoginController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF1D7D74),
+      backgroundColor: const Color(0xFF6C9056),
       body: SafeArea(
         child: Stack(
           children: [
@@ -67,7 +67,7 @@ class LoginView extends GetView<LoginController> {
                               style: GoogleFonts.inter(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
-                                color: const Color(0xFF1D7D74),
+                                color: const Color(0xFF6C9056),
                               ),
                             ),
 
@@ -142,7 +142,7 @@ class LoginView extends GetView<LoginController> {
                                 child: Text(
                                   'Forgot Password',
                                   style: GoogleFonts.inter(
-                                    color: const Color(0xFF1D7D74),
+                                    color: const Color(0xFF6C9056),
                                     fontSize: 14,
                                   ),
                                 ),

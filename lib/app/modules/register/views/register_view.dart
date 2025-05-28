@@ -10,7 +10,7 @@ class RegisterView extends GetView<RegisterController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF1D7D74),
+      backgroundColor: const Color(0xFF6C9056),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
@@ -42,7 +42,7 @@ class RegisterView extends GetView<RegisterController> {
                           style: GoogleFonts.inter(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
-                            color: const Color(0xFF1D7D74),
+                            color: const Color(0xFF6C9056),
                           ),
                         ),
                         const SizedBox(height: 30),
@@ -180,7 +180,7 @@ class RegisterView extends GetView<RegisterController> {
                                 style: GoogleFonts.inter(color: Colors.grey, fontSize: 14),
                               ),
                               GestureDetector(
-                                onTap: controller.navigateToLogin,
+                                onTap: () => Get.toNamed('/login'),
                                 child: Text(
                                   'Login',
                                   style: GoogleFonts.inter(

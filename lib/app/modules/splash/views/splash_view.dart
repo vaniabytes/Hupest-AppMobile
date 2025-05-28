@@ -131,14 +131,14 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
   }
 
   void _navigateToLogin() {
-Get.toNamed('/login', transition: Transition.rightToLeft, duration: const Duration(milliseconds: 500));
+Get.toNamed('/login');
 
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color(0xFFE0E5DD),
       body: SafeArea(
         child: AnimatedBuilder(
           animation: Listenable.merge([
